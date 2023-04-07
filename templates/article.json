@@ -1,9 +1,0 @@
-{
-  "name": "Default article template",
-  "sections": {
-    "main": {
-      "type": "article"
-    }
-  },
-  "order": ["main"]
-}

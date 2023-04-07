@@ -1,9 +1,0 @@
-{
-  "name": "Default page template",
-  "sections": {
-    "main": {
-      "type": "page"
-    }
-  },
-  "order": ["main"]
-}

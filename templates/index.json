@@ -1,9 +1,10 @@
 {
-  "name": "Default index template",
   "sections": {
-    "image-banner": {
-      "type": "image-banner"
+    "main-index": {
+        "type": "main-index"
     }
   },
-  "order": ["main"]
+  "order": [
+    "main-index"
+  ]
 }

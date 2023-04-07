@@ -1,9 +1,0 @@
-{
-  "name": "Default search template",
-  "sections": {
-    "main": {
-      "type": "search"
-    }
-  },
-  "order": ["main"]
-}

@@ -16,6 +16,12 @@
         href="https://fonts.shopifycdn.com"
         crossorigin>
     {%- endunless -%}
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.51.5/dist/full.css"
+      rel="stylesheet"
+      type="text/css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <title>{{ shop.name }}</title>
     {% if page_description %}
@@ -27,9 +33,7 @@
     </script>
   </head>
   <body>
-    <a class="skip-to-content-link button visually-hidden" href="#MainContent">
-      {{ "accessibility.skip_to_text" | t }}
-    </a>
+    {% section 'header' %}
     <main
       id="MainContent"
       class="content-for-layout focus-none"
@@ -37,6 +41,7 @@
       tabindex="-1">
       {{ content_for_layout }}
     </main>
+    {% section 'footer' %}
     <script>
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
