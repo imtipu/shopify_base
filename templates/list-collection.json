@@ -1,0 +1,9 @@
+{
+  "name": "Default list-collection template",
+  "sections": {
+    "main": {
+      "type": "list-collection"
+    }
+  },
+  "order": ["main"]
+}

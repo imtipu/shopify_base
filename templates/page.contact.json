@@ -1,0 +1,9 @@
+{
+  "name": "Default collection template",
+  "sections": {
+    "main": {
+      "type": "main-contact"
+    }
+  },
+  "order": ["main"]
+}
